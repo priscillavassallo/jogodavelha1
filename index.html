@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1> - </h1>
+    <h1> Jogo da Velha </h1>
     <div>
         <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
         <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
@@ -31,9 +31,20 @@
     </div>
 
     <div class="status">
-        <p><strong>Jogador:</strong> <span id="jogador-selecionado"></span></p>
-        <p><strong>Vencedor:</strong> <span id="vencedor-selecionado"></span></p>
-        <button id="reiniciar">Reiniciar</button>
+        <p>
+            <strong>Jogador:</strong> 
+            <span id="jogador-selecionado"></span>
+        </p>
+        <p>
+            <strong>Vencedor:</strong> 
+            <span id="vencedor-selecionado"></span>
+        </p>
+    </div>
+
+    <div>
+        <button onclick="reiniciar()">
+            Reiniciar
+        </button>
     </div>
 
 </body>
